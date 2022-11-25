@@ -1,0 +1,35 @@
+.List {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  gap: 5px;
+  column-gap: 10px;
+  padding: 5px 7px;
+  justify-content: center;
+  align-items: center;
+}
+.List img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.List h3,
+.List h2 {
+  margin: 10px 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.List h3 {
+  font-size: 18px;
+  color: gray;
+}
+
+.List h2 {
+  font-size: 24px;
+}
+.info {
+  padding: 10px;
+}
